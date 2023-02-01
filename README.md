@@ -39,12 +39,9 @@ int main(){
 	for(i=0;i<m;i++){
 		check(a,b,i);
 		if(check(a,b,i)==1){
-			count++;
-		}
+			count++;}
 		if(check(a,b,i)==2){
-			count++;
-		}
-	}
+			count++;}}
 	printf("총 하객수: %d",count);
 	return 0;
 }
