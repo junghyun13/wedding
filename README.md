@@ -33,9 +33,7 @@ int main(){
 	scanf("%d",&n);
 	scanf("%d",&m);
 	for(i=0;i<m;i++){
-		scanf("%d %d",&a[i],&b[i]);
-		
-	}
+		scanf("%d %d",&a[i],&b[i]);}
 	for(i=0;i<m;i++){
 		check(a,b,i);
 		if(check(a,b,i)==1){
